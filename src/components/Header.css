@@ -1,0 +1,35 @@
+.header-component {
+  text-align: center;
+  background-color: #282c34;
+  padding: 1rem 0;
+}
+
+header {
+  color: #dadadc;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.header-component p {
+  margin-bottom: 0;
+}
+
+.header-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+/* media screen min-width: 768px */
+@media screen and (min-width: 768px) {
+  header {
+    color: #dadadc;
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
